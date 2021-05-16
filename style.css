@@ -1,0 +1,53 @@
+body{
+    text-align: :center;
+    margin:0;
+    padding-top:740px;
+}
+
+#wasd{
+    position: absolute;
+    width:100%;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    height:800px;
+    color:blue;
+    opacity: 0.99;
+    background:linear-gradient(red 0%,yellow 50%,green 100%);
+    z-index: 1;
+}
+.profile{
+    width:275px;
+    border-radius: 50%;
+    margin-top: 200px;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    z-index: 40;
+    list-style: none;
+    position: fixed;
+}
+.link{
+    float: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 27px;
+    font-family: 'Freckle Face', cursive; 
+}
+.link :hover{
+     background-color: ghostwhite;
+}
+#contact{
+    background-color: cyan;
+}
+#contact iframe{
+    width: 85%;
+}
+.mail H3{
+    display: inline;
+}
